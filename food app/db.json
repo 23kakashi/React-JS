@@ -1,0 +1,116 @@
+{
+  "meals": [
+    {
+      "id": "m1",
+      "name": "Sushi",
+      "description": "Finest fish and veggies",
+      "price": 22.99
+    },
+    {
+      "id": "m2",
+      "name": "Schnitzel",
+      "description": "A german specialty!",
+      "price": 16.5
+    },
+    {
+      "id": "m3",
+      "name": "Barbecue Burger",
+      "description": "American, raw, meaty",
+      "price": 12.99
+    },
+    {
+      "id": "m4",
+      "name": "Green Bowl",
+      "description": "Healthy...and green...",
+      "price": 18.99
+    }
+  ],
+  "orders": [
+    {
+      "user": {
+        "name": "Tapish sharma",
+        "street": "MBM engineering college,ratanada",
+        "city": "34201",
+        "postalCode": "Jodhpur"
+      },
+      "orderedItem": [
+        {
+          "id": "m1",
+          "name": "Sushi",
+          "amount": 1,
+          "price": 22.99
+        }
+      ],
+      "id": 1
+    },
+    {
+      "user": {
+        "name": "Tapish sharma",
+        "street": "E 35 , Ambedkar nagar ,Itarana",
+        "city": "30100",
+        "postalCode": "Alwar "
+      },
+      "orderedItem": [
+        {
+          "id": "m3",
+          "name": "Barbecue Burger",
+          "amount": 1,
+          "price": 12.99
+        },
+        {
+          "id": "m2",
+          "name": "Schnitzel",
+          "amount": 1,
+          "price": 16.5
+        }
+      ],
+      "id": 2
+    },
+    {
+      "user": {
+        "name": "Tapish sharma",
+        "street": "E 35 , Ambedkar nagar ,Itarana",
+        "city": "30100",
+        "postalCode": "Alwar "
+      },
+      "orderedItem": [
+        {
+          "id": "m1",
+          "name": "Sushi",
+          "amount": 1,
+          "price": 22.99
+        },
+        {
+          "id": "m2",
+          "name": "Schnitzel",
+          "amount": 1,
+          "price": 16.5
+        }
+      ],
+      "id": 3
+    },
+    {
+      "user": {
+        "name": "Tapish sharma",
+        "street": "E 35 , Ambedkar nagar ,Itarana",
+        "city": "30100",
+        "postalCode": "Alwar "
+      },
+      "orderedItem": [
+        {
+          "id": "m1",
+          "name": "Sushi",
+          "amount": 2,
+          "price": 22.99
+        },
+        {
+          "id": "m2",
+          "name": "Schnitzel",
+          "amount": 4,
+          "price": 16.5
+        }
+      ],
+      "id": 4
+    }
+  ]
+}

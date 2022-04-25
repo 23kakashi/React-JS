@@ -1,0 +1,16 @@
+{
+  "movies": [
+    {
+      "title": "hello",
+      "openingText": "HELLO",
+      "releaseDate": "12-12-2021",
+      "id": 1
+    },
+    {
+      "title": "hi ",
+      "openingText": "HI",
+      "releaseDate": "12-12-2020",
+      "id": 2
+    }
+  ]
+}
